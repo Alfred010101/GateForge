@@ -3,7 +3,7 @@ package windows;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import components.PanelDraw;
+import design.PanelDraw;
 
 public class SimuladorUI extends JFrame implements Runnable{
 
@@ -12,7 +12,7 @@ public class SimuladorUI extends JFrame implements Runnable{
     {
         mainPanel = new PanelDraw();
         setTitle("Simulador");
-        setSize(800, 800);
+        setSize(900, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         add(mainPanel);
